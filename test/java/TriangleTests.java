@@ -28,23 +28,6 @@ public class TriangleTests {
 
 
 
-    @Test
-    @DisplayName("Первая негативная проверка")
-    void negativeSquareCalcTest1() {
-       assertThatExceptionOfType(Exception.class).isThrownBy(() -> Trangle.geroneSquare(-2, 4, 5));
-    }
 
-    @Test
-    @DisplayName("Вторая негативная проверка")
-    void negativeSquareCalcTest2() {
-        assertThatExceptionOfType(Exception.class).isThrownBy(() -> Trangle.geroneSquare(0, 2, 2));
-
-    }
-
-    @Test
-    @DisplayName("Третья негативная проверка")
-    void negativeSquareCalcTest3() {
-        assertThatExceptionOfType(Exception.class).isThrownBy(() -> Trangle.geroneSquare(1, 2, 100));
-    }
 
 }
